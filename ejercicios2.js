@@ -141,7 +141,7 @@ console.log(estaEnRango(numero))
 const numero = prompt("ingrese un numero");
 const coma = '.';
 
-			//problemas cuando pongo 1- ======================================================================
+			//problemas cuando pongo por ejemplo 1- ======================================================================
 function esEntero(numero) {
   // Devuelve "true" si "numero" es un entero (int/integer)
   // Ejemplo: 0.8 -> false
@@ -222,6 +222,8 @@ function operadoresLogicos(num1, num2, num3) {
 }
 
 console.log(operadoresLogicos(num1,num2,num3))
+
+				//problemas en la condicion no funciona ======================================================================
 
    let numero= parseInt(prompt('Ingrese un numero para saber si es primo'))
 function esPrimo(numero) {
